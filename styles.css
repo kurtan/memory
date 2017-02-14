@@ -1,0 +1,21 @@
+
+        :root {
+            --color: red;
+            --colorTest:tomato;
+            --colorSharp:blue;
+        }
+        main {
+            width: 500px;
+            height: 500px;
+            margin: auto;
+        }
+        button {
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+            color: var(--colorSharp);
+            background-color:blue;
+            font-size: xx-large;
+        }
+        .klar{box-shadow: 5px 5px 5px  tomato;border:4px inset tomato;border-radius:5px;opacity:0.3;}
+  
